@@ -1,12 +1,12 @@
 var Redux = require('redux');
 
 var projectReducer = require('project/reducers/projectReducer.js');
-var projectSaveStatusReducer = require('project/reducers/projectSaveStatusReducer.js');
+var lastSavedProjectReducer = require('project/reducers/lastSavedProjectReducer.js');
 var pairingHistoryReducer = require('project/reducers/pairingHistoryReducer.js');
 
 var dataReducer = Redux.combineReducers({
     project: projectReducer,
-    projectSaveStatus: projectSaveStatusReducer,
+    lastSavedProject: lastSavedProjectReducer,
     pairingHistory: pairingHistoryReducer
 });
 

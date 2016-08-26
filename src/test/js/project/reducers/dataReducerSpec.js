@@ -10,10 +10,7 @@ describe("dataReducer", function() {
                 people: [],
                 pairingBoards: []
             },
-            projectSaveStatus: {
-              lastSavedProject: {},
-              projectSaved: false
-            },
+            lastSavedProject: {},
             pairingHistory: {
                 pairingHistoryList: []
             }

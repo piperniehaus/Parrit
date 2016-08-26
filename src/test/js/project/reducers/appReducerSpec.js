@@ -17,10 +17,7 @@ describe("appReducer", function() {
                     people: [],
                     pairingBoards: []
                 },
-                projectSaveStatus: {
-                  lastSavedProject: {},
-                  projectSaved: false
-                },
+                lastSavedProject: {},
                 pairingHistory: {
                     pairingHistoryList: []
                 }
