@@ -10,6 +10,10 @@ describe("dataReducer", function() {
                 people: [],
                 pairingBoards: []
             },
+            projectSaveStatus: {
+              lastSavedProject: {},
+              projectSaved: false
+            },
             pairingHistory: {
                 pairingHistoryList: []
             }
@@ -20,4 +24,3 @@ describe("dataReducer", function() {
         ).toEqual(stateAfter);
     });
 });
-

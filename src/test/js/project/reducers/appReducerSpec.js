@@ -17,6 +17,10 @@ describe("appReducer", function() {
                     people: [],
                     pairingBoards: []
                 },
+                projectSaveStatus: {
+                  lastSavedProject: {},
+                  projectSaved: false
+                },
                 pairingHistory: {
                     pairingHistoryList: []
                 }
@@ -28,4 +32,3 @@ describe("appReducer", function() {
 		).toEqual(stateAfter);
 	});
 });
-
